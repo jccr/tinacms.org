@@ -5,18 +5,60 @@
   },
   "blocks": [
     {
-      "_template": "hero",
-      "headline": "The Fastest Way to Edit Next.js Content",
-      "subline": "A visual editing experience for content stored in Markdown and JSON",
-      "actions": [
+      "headline": "Explore the *Tina ecosystem*",
+      "subline": "More than just a headless CMS, Tina has all the tools for building web experiences for interdisciplinary teams.",
+      "color": "white",
+      "items": [
         {
-          "variant": "orange",
-          "label": "Get Started",
-          "icon": "",
-          "url": "https://app.tina.io/quickstart"
+          "_template": "feature",
+          "headline": "Data Source Plugins",
+          "subline": "Data Source plugins allow you to extend Tina to connect to different databases and 3rd Party APIs",
+          "actions": [
+            {
+              "variant": "link",
+              "label": "Visit The Docs",
+              "icon": "arrowRight",
+              "url": "#"
+            }
+          ],
+          "media": {
+            "src": "/img/io-placeholder.jpg"
+          }
+        },
+        {
+          "_template": "feature",
+          "headline": "Screen UI Plugins",
+          "subline": "Data Source plugins allow you to extend Tina to connect to different databases and 3rd Party AP",
+          "actions": [
+            {
+              "variant": "link",
+              "label": "Visit The Docs",
+              "icon": "arrowRight",
+              "url": "#"
+            }
+          ],
+          "media": {
+            "src": "/img/io-placeholder.jpg"
+          }
+        },
+        {
+          "_template": "feature",
+          "headline": "Custom Fields",
+          "subline": "Extend primary fields with custom field plugins to completely control the editing experience and functionality.",
+          "actions": [
+            {
+              "variant": "link",
+              "label": "Visit The Docs",
+              "icon": "arrowRight",
+              "url": "#"
+            }
+          ],
+          "media": {
+            "src": "/img/io-placeholder.jpg"
+          }
         }
       ],
-      "videoSrc": "v1629294438/tina-io/Beta_Launch_Demo"
+      "_template": "features"
     },
     {
       "_template": "features",
@@ -66,6 +108,24 @@
       ]
     },
     {
+      "_template": "hero",
+      "headline": "The Fastest Way to Edit Next.js Content",
+      "subline": "A visual editing experience for content stored in Markdown and JSON",
+      "actions": [
+        {
+          "variant": "orange",
+          "label": "Get Started",
+          "icon": "",
+          "url": "https://app.tina.io/quickstart"
+        }
+      ],
+      "videoSrc": "v1629294438/tina-io/Beta_Launch_Demo"
+    },
+    {
+      "headline": "*Edit Content, Not Code*",
+      "subline": "Make changes in context and see them in real-time. Hit save and Tina handles the commit."
+    },
+    {
       "_template": "flying",
       "headline": "New to Tina?",
       "subline": "Learn the basics of the development workflow",
@@ -95,10 +155,6 @@
           "subline": "Tina supports content stored in Git. Give the benefits of version-control to your whole team."
         }
       ]
-    },
-    {
-      "headline": "*Edit Content, Not Code*",
-      "subline": "Make changes in context and see them in real-time. Hit save and Tina handles the commit."
     },
     {
       "headline": "New to Tina?",
