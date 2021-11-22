@@ -5,6 +5,39 @@
   },
   "blocks": [
     {
+      "headline": "Learn Tina",
+      "subline": "Learn Tina through Interactive & Fun Tutorials.",
+      "actions": [
+        {
+          "variant": "button",
+          "label": "Get Started",
+          "icon": "arrowRight",
+          "url": "#"
+        }
+      ],
+      "_template": "flying"
+    },
+    {
+      "headline": "Content editing for modern teams",
+      "subline": "Tina is an open-source CMS admin that talks to any API",
+      "actions": [
+        {
+          "variant": "button",
+          "label": "Try Demo",
+          "icon": "arrowRight",
+          "url": "#"
+        },
+        {
+          "variant": "link",
+          "label": "Learn More",
+          "icon": "",
+          "url": "#"
+        }
+      ],
+      "videoSrc": "v1571425758/tina-hero-demo-v2",
+      "_template": "hero"
+    },
+    {
       "headline": "Explore the *Tina ecosystem*",
       "subline": "More than just a headless CMS, Tina has all the tools for building web experiences for interdisciplinary teams.",
       "color": "white",
@@ -67,10 +100,11 @@
       "items": [
         {
           "_template": "feature",
-          "headline": "Version Control Your Content",
-          "subline": "Retain the benefits of a Git workflow for your content and empower all teammates to update your website through a user-friendly interface.",
+          "headline": "Hello Beto",
+          "subline": "Retain the baasdasdar all teammates to update your website through a user-friendly interface.",
           "media": {
-            "src": "/img/update-from-tina.jpg"
+            "src": "/img/update-from-tina.jpg",
+            "cli": false
           }
         },
         {
@@ -108,9 +142,65 @@
       ]
     },
     {
+      "headline": "Explore the *Tina ecosystem*",
+      "subline": "Tina is an open-source editor for Jamstack sites",
+      "color": "white",
+      "items": [
+        {
+          "_template": "feature",
+          "headline": "Data Source Plugins",
+          "subline": "Data Source plugins allow you to extend Tina to connect to different databases and 3rd Party APIs",
+          "actions": [
+            {
+              "variant": "link",
+              "label": "Visit The Docs",
+              "icon": "arrowRight",
+              "url": "#"
+            }
+          ],
+          "media": {
+            "src": "/img/io-placeholder.jpg"
+          }
+        },
+        {
+          "_template": "feature",
+          "headline": "Screen UI Plugins",
+          "subline": "Data Source plugins allow you to extend Tina to connect to different databases and 3rd Party AP",
+          "actions": [
+            {
+              "variant": "link",
+              "label": "Visit The Docs",
+              "icon": "arrowRight",
+              "url": "#"
+            }
+          ],
+          "media": {
+            "src": "/img/io-placeholder.jpg"
+          }
+        },
+        {
+          "_template": "feature",
+          "headline": "Custom Fields",
+          "subline": "Extend primary fields with custom field plugins to completely control the editing experience and functionality.",
+          "actions": [
+            {
+              "variant": "link",
+              "label": "Visit The Docs",
+              "icon": "arrowRight",
+              "url": "#"
+            }
+          ],
+          "media": {
+            "src": "/img/io-placeholder.jpg"
+          }
+        }
+      ],
+      "_template": "features"
+    },
+    {
       "_template": "hero",
-      "headline": "The Fastest Way to Edit Next.js Content",
-      "subline": "A visual editing experience for content stored in Markdown and JSON",
+      "headline": "New to Tina?",
+      "subline": "Learn the basics of the development workflow",
       "actions": [
         {
           "variant": "orange",
